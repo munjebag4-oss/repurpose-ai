@@ -147,9 +147,9 @@ function Generator() {
 
       {uses >= MAX_FREE && (
         <div className="mt-6 text-center fade-in">
-          <p className="text-gray-500 text-sm mb-3">Unlock unlimited repurposing for $19/month</p>
+          <p className="text-gray-500 text-sm mb-3">Unlock unlimited repurposing for $9/month</p>
           <a href={process.env.NEXT_PUBLIC_PAYPAL_SUBSCRIBE_URL || "#"} className="inline-block bg-emerald-500 hover:bg-emerald-600 text-white font-semibold px-6 py-2.5 rounded-lg transition-colors text-sm">
-            Upgrade to Pro — $19/mo
+            Upgrade to Pro — $9/mo
           </a>
         </div>
       )}
@@ -174,7 +174,7 @@ function Pricing() {
         <div className="bg-[#12121a] border-2 border-emerald-500/50 rounded-xl p-6 relative">
           <div className="absolute -top-3 left-4 bg-emerald-500 text-white text-xs font-bold px-3 py-0.5 rounded-full">POPULAR</div>
           <div className="text-sm text-gray-500 mb-1">Pro</div>
-          <div className="text-3xl font-bold mb-4">$19<span className="text-base font-normal text-gray-500">/mo</span></div>
+          <div className="text-3xl font-bold mb-4">$9<span className="text-base font-normal text-gray-500">/mo</span></div>
           <ul className="space-y-2 text-sm text-gray-400">
             <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> Unlimited repurposes</li>
             <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> All 5 formats</li>
@@ -182,7 +182,7 @@ function Pricing() {
             <li className="flex items-center gap-2"><span className="text-emerald-400">✓</span> Priority support</li>
           </ul>
           <a href={process.env.NEXT_PUBLIC_PAYPAL_SUBSCRIBE_URL || "#"} className="block mt-6 bg-emerald-500 hover:bg-emerald-600 text-white text-center font-semibold py-2.5 rounded-lg transition-colors text-sm">
-            Start Pro — $19/mo
+            Start Pro — $9/mo
           </a>
         </div>
       </div>
@@ -194,7 +194,7 @@ function FAQ() {
   const [open, setOpen] = useState(null);
   const faqs = [
     { q: "How does RepurposeAI work?", a: "Paste any blog post or article. Our AI adapts it into 5 platform-native formats: X tweet, LinkedIn post, Instagram caption, email newsletter, and YouTube Shorts script." },
-    { q: "Is it really free?", a: "Yes! Get 3 free repurposes per day with no signup. Upgrade to Pro for $19/month for unlimited use." },
+    { q: "Is it really free?", a: "Yes! Get 3 free repurposes per day with no signup. Upgrade to Pro for $9/month for unlimited use." },
     { q: "What formats are supported?", a: "X/Twitter (280 chars), LinkedIn (professional post), Instagram (caption + hashtags), Newsletter (email summary), and YouTube Shorts script." },
     { q: "Is my content stored?", a: "No. Your content is processed in real-time and never stored on our servers." },
   ];
